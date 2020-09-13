@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="contact">
+    <div class="topnav">
+    <header>
+
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="registration.html">Register</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+
+
+      </ul>
+    </header></div>
+
+    <div class="contact-container">
+      <marquee width="100%" direction="left" height="80px">
+      <h1>Contact Form</h1></marquee>
+      <form action="contact.php" method="post">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="fname" placeholder="Your first name"><br>
+
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Your last name"><br>
+
+    <label for="country" >Country</label><br>
+    <select id="country" name="country">
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="China">China</option>
+    </select>
+    <br>
+    <label for="msg">Message</label><br>
+    <textarea id="msg" name="msg" placeholder="Write Message here" rows="10" cols="30"></textarea>
+      <br><center>
+    <input type="submit" name="submit" value="Submit"></center>
+  </form>
+</div>
+
+</body>
+
+  </html>
